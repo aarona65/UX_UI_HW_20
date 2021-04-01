@@ -1,0 +1,193 @@
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: white !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  .nav-item a{
+      border-color: black !important;
+  }
+  
+  
+  /* Navigation links */
+  .customNav a {
+    color: #F98600 !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+
+
+  /* Jumbotron */
+  .heroImage{
+      background-image: url(../images/WFD\ Hero.png);
+      background-size: cover; 
+      background-repeat: no-repeat;
+      height: calc(100vh-25px);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      height: 600px;
+  }
+
+  .jumbo{
+    color: black !important;
+  }
+
+  .jumbo p{
+      font-size: 24px;
+      font-weight: bold;
+      color:#F98600;
+  }
+
+  .substance{
+      padding: 40px;
+  }
+
+  .cardContainer{
+      color: #F98600;
+      height: 200px;
+      margin-bottom: 50px;
+  }
+
+.phase{
+    text-align: center;
+    background-color: #DC6057;
+    color: white;
+}
+
+.content img{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    margin-right: 50px;
+}
+.content .sectionHeading{
+    margin-bottom: 50px;
+}
+
+.synthesization{
+    margin-top: 60px;
+}
+.affinityHeading{
+    margin-left: 20px;
+}
+
+.affinityCards{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width:500px;
+}
+.affinityDiagram{
+    margin-left: 100px;
+    height: 450px;
+    width:400px;
+}
+.affinityDiagram img{
+    width: 100%;
+}
+
+.userPersona{
+    background-image: url(../images/WFD\ User\ Persona.png);
+    width: 70%;
+    height: 500px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.userPersona h4{
+    margin-bottom: 100px;
+
+
+}
+
+
+.definitionIdeation{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    
+}
+
+.featurePrior img{
+    height: 60%;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-bottom: 200px;
+}
+
+.storyBoard img{
+    height: 60%;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-bottom: 200px;
+}
+
+.compAnalysis img{
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.compAnalysis h3{
+    color: #F98600;
+}
+
+.userFlow img{
+    height: 60%;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-bottom: 200px;
+}
+
+.userFlow h2 {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.sketchHeader{
+    margin-bottom: 100px;
+}
+
+#sketchCarousel{
+    height: 400px;
+    width: 300px;
+    margin-left: 40%;
+}
+
+.userTests{
+    margin-top: 300px;
+    margin-bottom: 200px;
+}
+
+.hifiHeader{
+    margin-bottom: 100px;
+}
+
+#hifiCarousel{
+    height: 400px;
+    width: 300px;
+    margin-left: 40%;
+}
